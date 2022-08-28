@@ -1,0 +1,240 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-background: #ffffff;
+  --secondary-background: #2f303a;
+  --accent-color: #2196f3;
+  --button-background: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-background);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.003em;
+}
+
+.list,
+.list-contact,
+.gallery {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Стили для index */
+
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo span {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+/* Навигация */
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.list-contact .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.list-contact .link:hover,
+.list-contact .link:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero {
+  background-color: var(--secondary-background);
+}
+
+.hero-title {
+  color: var(--primary-background);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.main-btn {
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--primary-background);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* Особенности */
+
+.features .advantage {
+  display: none;
+}
+
+.list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.list .text {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Команда */
+
+.team {
+  background-color: var(--button-background);
+}
+
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.unit .list {
+  background-color: var(--primary-background);
+}
+
+.unit .name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.unit .job {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* Подвал */
+
+.footer {
+  background-color: var(--secondary-background);
+}
+
+.footer-logo {
+  color: var(--primary-background);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-logo span {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.address span {
+  color: var(--primary-background);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+}
+
+.address .link {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+}
+
+.address .link:hover,
+.adress .link:focus {
+  color: var(--accent-color);
+}
+
+/* Стили для портфолио */
+
+.filter-name {
+  display: none;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: var(--button-background);
+  color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-background);
+}
+
+.gallery .project {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.gallery .item {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+}
