@@ -5,6 +5,8 @@
   --secondary-background: #2f303a;
   --accent-color: #2196f3;
   --button-background: #f5f4fa;
+  --button-active: #188ce8;
+  --footer-contact: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -19,7 +21,8 @@ body {
   list-style: none;
 }
 
-.link {
+.link,
+.gallery a {
   text-decoration: none;
 }
 
@@ -97,6 +100,11 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: var(--button-active);
 }
 
 /* Особенности */
@@ -191,7 +199,7 @@ body {
 }
 
 .address .link {
-  color: var(--primary-text-color);
+  color: var(--footer-contact);
   font-size: 14px;
   font-style: normal;
   line-height: 1.7;
