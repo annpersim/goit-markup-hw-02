@@ -21,8 +21,7 @@ body {
   list-style: none;
 }
 
-.link,
-.gallery a {
+.link {
   text-decoration: none;
 }
 
